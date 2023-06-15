@@ -1,0 +1,127 @@
+:root {
+  --primary: #f7f1e5;
+  --secondary: #e7b10a;
+  --third: #898121;
+  --fourth: #4c4b16;
+}
+
+* {
+  transition: 0.4s;
+}
+
+.privacy {
+  font-size: 14px;
+  color: grey;
+}
+
+.navbar {
+  background-color: transparent;
+  font-weight: 500;
+  box-shadow: 1px 1px 10px #252525;
+}
+.links > a:hover {
+  color: var(--secondary);
+}
+.nav-links > a:hover {
+  color: var(--secondary);
+}
+
+.login {
+  display: flex;
+  justify-content: right;
+}
+.login > .card {
+  margin: 50px;
+  height: 660px;
+  width: 600px;
+  box-shadow: 1px 1px 30px #252525;
+  background: linear-gradient(#f7f1e5, transparent, #f7f1e5);
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+}
+
+.signup > .box {
+  position: relative;
+  top: 100px;
+  box-shadow: 1px 1px 30px #252525;
+}
+
+.heading {
+  text-align: center;
+  color: var(--secondary);
+}
+
+.heading > h1 {
+  font-size: 70px;
+  padding: 10px;
+}
+
+.login {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-image: url('https://images.unsplash.com/photo-1615283119149-8181881c73e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1904&q=80'); */
+  background-image: url("https://images.unsplash.com/photo-1452574021207-3cab7c474f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+/* Homepage */
+
+.Home {
+  position: relative;
+  top: 76px;
+}
+
+.txt {
+  background-color: var(--secondary);
+}
+
+.txt > h1 {
+  /* font-size: 52px; */
+  font-weight: bold;
+}
+
+.txt > p {
+  font-size: 19px;
+}
+
+/* Aboutpage */
+
+.banner-img {
+  background: linear-gradient(rgba(35, 35, 35, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1606914501491-7b11d54f232f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.banner-img > h1 {
+  position: relative;
+  top: 400px;
+  text-align: center;
+}
+
+.about .logo {
+  cursor: pointer;
+}
+
+.about .logo:hover {
+  box-shadow: 1px 1px 30px #252525;
+  transform: scale(1.05);
+}
+
+/* footerpage */
+.footer {
+  background-color: var(--primary);
+  backdrop-filter: blur(5px);
+  box-shadow: 1px 1px 20px #252525;
+}
+
+.logoimg {
+  border-radius: 50%;
+}
+.logoimg:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px 20px #252525;
+}
